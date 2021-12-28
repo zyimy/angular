@@ -6,11 +6,15 @@ import { ListarComponent } from './Tarea/listar/listar.component';
 import { FormsModule } from '@angular/forms';
 import { ServiceService } from '../app/Service/service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AddComponent } from './Tarea/add/add.component';
+import { EditComponent } from './Tarea/edit/edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListarComponent
+    ListarComponent,
+    AddComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
