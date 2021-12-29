@@ -9,7 +9,7 @@ export class ServiceService {
 
     
   constructor(private http:HttpClient) { }
-    Url= 'https://apiservicesspri.herokuapp.com/tareas';
+    Url= 'https://api-services-apply.herokuapp.com/tareas';
 
     getTareas(){
       return this.http.get<Tarea[]>(this.Url);
