@@ -15,6 +15,21 @@
                 <input [(ngModel)]="tarea.completado" name="completado" type="text" class="form-control">
             </div>
 
+            <div class="form-group">
+                <label for="">Fecha Inicio:</label>
+                <input [(ngModel)]="tarea.fechaInicio" name="fechaInicio" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="">Fecha Entrega:</label>
+                <input [(ngModel)]="tarea.fechaEntrega" name="fechaEntrega" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="">Instituto:</label>
+                <input [(ngModel)]="tarea.instituto" name="completado" type="text" class="form-control">
+            </div>
+
             <button (click)="Guardar()" class="btn btn-danger mt-2">Guardar</button>
         </form>
        
