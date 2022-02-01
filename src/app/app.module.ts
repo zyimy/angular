@@ -8,13 +8,19 @@ import { ServiceService } from '../app/Service/service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AddComponent } from './Tarea/add/add.component';
 import { EditComponent } from './Tarea/edit/edit.component';
+import { MenuComponent } from './menu/menu.component';
+import { SliderComponent } from './slider/slider.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarComponent,
     AddComponent,
-    EditComponent
+    EditComponent,
+    MenuComponent,
+    SliderComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

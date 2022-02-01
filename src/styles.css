@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+
+.carrusel{
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+}
+
+.registrate{
+    margin-right: 15px;
+    
+}
+
+.ver-mas{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.icono-registro{
+    width: 70px;
+    height: 40px;
+}
+.container{
+    max-width: 92.5%;
+    background-color: #F2F3F4;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.containe{
+    max-width: 92.5%;
+    margin: auto;  
+}
+
+.carrito{
+    margin-left: 8px;
+}
+
