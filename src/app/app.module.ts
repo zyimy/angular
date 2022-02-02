@@ -11,6 +11,7 @@ import { EditComponent } from './Tarea/edit/edit.component';
 import { MenuComponent } from './menu/menu.component';
 import { SliderComponent } from './slider/slider.component';
 import { CardComponent } from './card/card.component';
+import { CuerpoComponent } from './cuerpo/cuerpo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './card/card.component';
     EditComponent,
     MenuComponent,
     SliderComponent,
-    CardComponent
+    CardComponent,
+    CuerpoComponent
   ],
   imports: [
     BrowserModule,
